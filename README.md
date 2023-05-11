@@ -16,6 +16,7 @@ npm run dev
 
 ```
 npm run dev
+npm run server
 ```
 
 ## JSON Server
