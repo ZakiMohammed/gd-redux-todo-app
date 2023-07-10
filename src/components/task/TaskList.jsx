@@ -25,9 +25,11 @@ const TaskList = () => {
             }
         }
 
-        getTasks()
+        if (!tasks) {
+            getTasks();
+        }
 
-    }, [dispatch])
+    }, [dispatch, tasks])
 
     return (
         <div className='card-holder'>

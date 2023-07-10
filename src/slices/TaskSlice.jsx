@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 export const taskSlice = createSlice({
     name: 'task',
     initialState: {
-        tasks: [],
+        tasks: null,
         loading: false
     },
     reducers: {
@@ -14,7 +14,7 @@ export const taskSlice = createSlice({
             state.tasks = [...state.tasks, action.payload]
         },
         remove: (state, action) => {
-            state.tasks = state.tasks.filter(i => i._id !== action.payload._id)
+            state.tasks = state.tasks && state.tasks.filter(i => i._id !== action.payload._id)
         },
         setLoading: (state, action) => {
             state.loading = action.payload

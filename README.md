@@ -2,6 +2,13 @@
 
 GD App Architecture Communities Call - (React Redux Toolkit).
 
+## Run App
+
+```
+npm run dev
+npm run server
+```
+
 ## Initial Setup
 
 ```
@@ -10,13 +17,6 @@ npm create vite@latest
 cd gd-redux-todo-app
 npm i
 npm run dev
-```
-
-## Run App
-
-```
-npm run dev
-npm run server
 ```
 
 ## JSON Server

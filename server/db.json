@@ -1,24 +1,16 @@
 {
   "todos": [
     {
-      "_id": "b1ef7066-9d6d-4be4-9b44-f767d3ba7d9d",
-      "title": "Fill timehseet"
+      "title": "Learning RTK",
+      "_id": 3
     },
     {
-      "_id": "e9535d18-4495-44da-9f87-12466c959234",
-      "title": "Update hours on ADO"
+      "title": "Creating session's PPT",
+      "_id": 4
     },
     {
-      "_id": "394c7c39-84b6-4dc2-b7bf-28a8553481ea",
-      "title": "Resolve PR comments"
-    },
-    {
-      "_id": "ade9b6cc-400b-4ec7-8e8a-2d2caa77a243",
-      "title": "Implement caching"
-    },
-    {
-      "title": "Foo",
-      "_id": "Ocp_OE4"
+      "title": "Creating GitHub repo",
+      "_id": 5
     }
   ]
 }
